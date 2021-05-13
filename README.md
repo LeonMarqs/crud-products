@@ -19,6 +19,7 @@
    * [Pré Requisitos](#pré-requisitos)
    * [Configs do servidor](#configurações-do-servidor)
 * [Rodar a aplicação](#rodar-a-aplicação)
+   * [Autenticação](#autenticação)
 * [Imagens](#imagens)
   * [Login](#login)
   * [Adicionar instrumento](#adicionar-um-novo-instrumento)
@@ -123,6 +124,10 @@ Obs: Se tiver alguma dúvida durante os passos 1 e 2, leia a [Documentação Ofi
   yarn start	
   ```
   A aplicação estará disponível em: http://localhost:3000
+  
+ ## Autenticação
+  
+  Os dados do `usuário` e `senha` estão no arquivo `.env (USER_JWT, PWD_JWT)` que é definido pelo próprio dev.
 
 # Imagens
 
