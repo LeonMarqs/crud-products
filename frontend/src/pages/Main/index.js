@@ -140,8 +140,12 @@ export default function Main() {
               <img src={product.imageUrl} alt={product.name}/>
               <p>R$ {product.price},00</p>
               <div className="options">
-                <button onClick={() => deleteProduct(product.id)}><FiTrash2 color="#fff" size="1.5rem"/></button>
-                <button onClick={() => editProduct(product)}><FiEdit color="#fff" size="1.5rem"/></button>
+                <button onClick={() => deleteProduct(product.id)}>
+                  <FiTrash2 color="#fff" size="1.5rem"/>
+                </button>
+                <button onClick={() => editProduct(product)}>
+                  <FiEdit color="#fff" size="1.5rem"/>
+                </button>
               </div>
             </li>
           )

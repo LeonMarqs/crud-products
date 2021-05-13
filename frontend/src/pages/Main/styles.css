@@ -20,6 +20,7 @@ header {
 button {
   border: none;
   cursor: pointer;
+  font-weight: 600;
   transition: all 0.2s;
 }
 
@@ -27,7 +28,6 @@ button.logout  {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   color: #fff;
-  font-weight: 600;
   margin-left: 0.5rem;
   background: var(--secondary);
 }
@@ -87,15 +87,22 @@ li img {
 li .options {
   display: flex;
   width: 100%;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 li .options button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   width: 50%;
   border: 1px solid #000;
   border-radius: 0 0 10px 0;
   background: var(--secondary);
   cursor: pointer;
   transition: all 0.3s;
+  padding: 0.45rem 0;
 }
 
 li .options button:hover {
