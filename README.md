@@ -1,9 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 
-![Imagem principal](/imgs/main.png | width=450);
+![Imagem principal](/imgs/main.png?raw=true)
 
-  <h3 align="center">CRUD Instrumentos</h3>
+  <h3 align="center">Instrumentos CRUD</h3>
 
   <p align="center">
     Um website feito com ReactJS e NodeJS para um CRUD simples com produtos.
@@ -12,17 +12,22 @@
   </p>
 
 <!-- TABLE OF CONTENTS -->
-* [Sobre](#Sobre-o-projeto)
+* [Sobre](#sobre-o-projeto)
    * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Começando](#começando)
    * [Pré Requisitos](#pré-requisitos)
    * [Configs do servidor](#configurações-do-servidor)
 * [Rodar a aplicação](#rodar-a-aplicação)
 * [Imagens](#imagens)
+  * [Login](#login)
+  * [Adicionar instrumento](#adicionar-um-novo-instrumento)
+  * [Banco de dados](#banco-de-dados-firestore)
 * [Contato](#contato)
 
 <!-- Sobre o projeto -->
 # Sobre o projeto
+Informações úteis sobre o projeto
+
 ## Tecnologias utilizadas
 
 * [ReactJS](https://reactjs.org/)
@@ -32,6 +37,7 @@
 <!-- GETTING STARTED -->
 
 # Começando
+Passos necessários a serem feitos antes de rodar a aplicação
 
 ## Pré-Requisitos
 
@@ -118,14 +124,17 @@ Obs: Se tiver alguma dúvida durante os passos 1 e 2, leia a [Documentação Ofi
   A aplicação estará disponível em: http://localhost:3000
 
 # Imagens
-Login
-![Login-Erro](/imgs/login-error.png | width=500);
 
-Adicionar um novo instrumento
-![Add-Erro](/imgs/add-error.png | width=800);
+## Login
 
-Banco de dados Firestore
-![Banco-firestore](/imgs/firestore.png | width=500);
+![Login-Erro](/imgs/login-error.png?raw=true)
+
+## Adicionar um novo instrumento
+
+![Add-Erro](/imgs/add-error.png?raw=true)
+
+## Banco de dados Firestore
+![Banco-firestore](/imgs/firestore.png?raw=true)
 <!-- CONTACT -->
 # Contato
 
