@@ -1,9 +1,10 @@
 <!-- PROJECT LOGO -->
 <br />
 
+<h3 align="center">Instrumentos CRUD</h3>
+
 ![Imagem principal](/imgs/main.png?raw=true)
 
-  <h3 align="center">Instrumentos CRUD</h3>
 
   <p align="center">
     Um website feito com ReactJS e NodeJS para um CRUD simples com produtos.
