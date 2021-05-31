@@ -54,9 +54,9 @@ Passos necessários a serem feitos antes de rodar a aplicação
   cd backend
 
   # Instale as dependências
-  npm install 'nome-da-dependência'
+  npm install 
   # ou
-   yarn add 'nome-da-dependência'
+   yarn install
   ```
 
 * O mesmo para o `frontend`.
@@ -64,9 +64,9 @@ Passos necessários a serem feitos antes de rodar a aplicação
   # Acesse a pasta /frontend
   cd frontend
 
-  npm install 'nome-da-dependência'
+  npm install 
   # ou
-   yarn add 'nome-da-dependência'
+   yarn install
   ```
 
 ## Configurações do Servidor
